@@ -1,0 +1,15 @@
+info:
+  name: Will call without message
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: http://localhost:8080/frontend
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true
