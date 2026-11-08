@@ -1,7 +1,7 @@
 # Second optional assignment
 
 You have one application in the __frontend__ folder which calls a __backend__ application, 
-which can be started via this image: `quay.io/drsylent/cubix/block2/optional-backend:springboot3`.
+which can be started via this image: `quay.io/drsylent/cubix/block2/optional-backend:springboot4`.
 
 You can test the applications with the Postman collection _Second Optional Assignment.postman_collection.json_ 
 or with the Bruno collection in the _bruno-api_ folder.

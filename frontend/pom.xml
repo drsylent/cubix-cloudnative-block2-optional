@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.3</version>
+		<version>4.1.2</version>
 	</parent>
 	<groupId>hu.cubix.cloud</groupId>
 	<artifactId>cubix-second-optional-frontend</artifactId>
@@ -13,8 +13,8 @@
 	<name>cubix-second-optional-frontend</name>
 	<description>Second optional assignment - frontend application</description>
 	<properties>
-		<java.version>21</java.version>
-		<spring-cloud.version>2023.0.0</spring-cloud.version>
+		<java.version>25</java.version>
+		<spring-cloud.version>2025.1.2</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,9 +32,14 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-webmvc-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.wiremock</groupId>
 			<artifactId>wiremock-standalone</artifactId>
-			<version>3.4.2</version>
+			<version>3.13.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -58,7 +63,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>3.2.5</version>
+				<version>3.6.0</version>
 				<executions>
 					<execution>
 						<goals>
